@@ -1,0 +1,92 @@
+/* .toolyip{
+    position: relative;
+    border-bottom: 1px dashed black;
+
+}
+
+.tooltip::before{
+    content: attr(data-text);
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    left: 100%;
+    margin-left: 15px;
+
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    background: black;
+    text-align: center;
+     color: white;
+    display: none;
+
+}
+
+.tooltip:hover::before{
+    display:block;
+    opacity: 0;
+    transition: opacity 0.5;
+}
+
+.tooltip:hover::before{
+    display: block;
+
+} */
+
+body{
+    font-family: "source sans pro" , sans-serif;
+    font-weight: 700;
+}
+
+.paginate{
+    box-shadow: 0px -1px 20px 1px rgba(0, 0, 0, 0.18) ;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 450px;
+    height: 25px;
+}
+
+a{
+  color: grey;
+  text-decoration: none;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  transition: all 0.1 ease-in-out;
+  &:last-child{
+    background-color: grey;
+  }
+  &:hover{
+    background-color: lightblue;
+    color: white;
+
+}
+
+}
+
+
+.active{
+    background-color:lightblue ;
+    color: white;
+}
+
+
+
+input{
+    width: 30px;
+    border-radius: 3px;
+    height: 20px;
+    
+}
+
+p{
+    position: absolute;
+    padding-bottom: 40px ;
+}

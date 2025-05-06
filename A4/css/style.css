@@ -1,0 +1,24 @@
+.paragrafi1{
+    letter-spacing: 15px;
+}
+
+.paragrafi2{
+    word-spacing: 15px;
+}
+.paragrafi3{
+    text-indent: 30px;
+    line-height: 50px;
+}
+h1{
+    text-align: center;
+    text-decoration: line-through;
+}
+h2{
+    text-transform: uppercase;
+}
+h3{
+    text-transform: lowercase;
+}
+h4{
+    text-transform: capitalize;
+}

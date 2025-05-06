@@ -1,0 +1,47 @@
+body{
+    background-color: whitesmoke;
+}
+.cards{
+    width: 100%;
+    margin: auto;
+}
+.left{
+    display: inline-block;
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 4%;
+    vertical-align: middle;
+    height: 400px;
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px 30px;
+}
+span{
+    font-size: medium;
+    color: lightgray;
+    font-family: 'open sans', 'sans serif';
+
+}
+img{
+    height: 40px;
+    width: 60px;
+}
+.heading1{
+    color: orange;
+    font-family: serif;
+}
+p{
+    margin: auto;
+    color: green;
+    font-size: small;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.line{
+    width: 200px;
+    height: 10px;
+    border-bottom: 2px solid lightgray;
+    position: absolute;
+}

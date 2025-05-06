@@ -1,0 +1,10 @@
+table,th,td{
+    border: solid black;
+    border-collapse: collapse;
+}
+.not1{
+    background-color: red;
+}
+.n5{
+    background-color: green;
+}

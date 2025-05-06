@@ -1,0 +1,11 @@
+body{
+    background-color: #51666f;
+}
+.membercard{
+    background-color: white;
+    width: 25%;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
